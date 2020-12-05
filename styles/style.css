@@ -270,6 +270,8 @@ width: 730px;
 
 
 .section-title_theme_dark{
+  z-index: 2;
+  position: relative;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -280,6 +282,8 @@ width: 730px;
 }
 
 .section-subtitle_theme_dark{
+  z-index: 2;
+  position: relative;
   display: flex;
   justify-content: center;
   margin-left: auto;
