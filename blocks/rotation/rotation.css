@@ -1,0 +1,18 @@
+@keyframes rotation{
+  from {
+  transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.rotation{
+  top: 64px;
+  right: 0;
+  z-index: 1;
+  width: 568px;
+  height: 568px;
+  position: absolute;
+  animation: rotation 20s linear infinite;
+}
