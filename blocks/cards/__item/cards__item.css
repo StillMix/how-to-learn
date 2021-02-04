@@ -1,0 +1,11 @@
+.cards__item{
+  text-align: center;
+  padding: 0px;
+  width: 240px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.cards__item:last-of-type{
+  margin-right: 341px;
+}
